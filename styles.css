@@ -232,10 +232,10 @@ div.gallery-content p {
 }
 
 div.gallery-img {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   padding-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 3rem;
 }
 
 div.img {
@@ -347,9 +347,31 @@ div.footer h6 {
 }
 
 @media (max-width: 767px) {
-    div.footer-input {
-        flex-direction: column;
+
+    .snapshot-box-content {
+        flex-wrap: wrap;
     }
 
-    
+    .snapshot-box-content .box1, .box3 {
+        margin: 10px auto!important;
+    }
+
+    div.footer-input {
+        flex-direction: column;
+        padding-top: 2rem;
+    }
+
+    .footer input {
+        width: 90%;
+        margin-right: 0!important;
+    }
+
+    input[type='text'] + input[type="email"] {
+        margin-top: 32px;
+    }
+
+    .footer-textarea textarea {
+        width: 90%;
+    }
+
 }
