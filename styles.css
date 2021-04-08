@@ -347,7 +347,18 @@ div.footer h6 {
 }
 
 @media (max-width: 767px) {
-    
+    .background {
+        height: auto!important;
+        padding: 7px 20px!important;
+    }
+
+    .hero-background-pos {
+        display: none;
+    }
+
+    .background p {
+        padding-left: 0!important;
+    }
 
     .snapshot-team {
         max-width: 375px;
