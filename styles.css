@@ -347,6 +347,30 @@ div.footer h6 {
 }
 
 @media (max-width: 767px) {
+    body {
+        overflow-x: hidden!important;
+    }
+
+    .hero-section {
+        padding: 10rem 4rem!important;
+        min-width: 212px!important;
+    }
+
+    .hero-content-heading h3 {
+        font-size: 24px!important;
+    }
+
+    .hero-content-heading p {
+        font-size: 14px!important;
+    }
+
+    .hero-content-btn {
+        padding-top: 1.5rem!important;
+    }
+
+    .hero-background {
+        padding: 0 auto;
+    }
     .background {
         height: auto!important;
         padding: 7px 20px!important;
@@ -358,6 +382,10 @@ div.footer h6 {
 
     .background p {
         padding-left: 0!important;
+    }
+
+    .background h4 {
+        text-align: center;
     }
 
     .snapshot-team {
