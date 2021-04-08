@@ -347,6 +347,12 @@ div.footer h6 {
 }
 
 @media (max-width: 767px) {
+    
+
+    .snapshot-team {
+        max-width: 375px;
+        margin: 0 auto;
+    }
 
     .snapshot-box-content {
         flex-wrap: wrap;
