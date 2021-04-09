@@ -15,6 +15,10 @@ div.nav-bar {
     background: #304353;
 }
 
+button.nav-toggle {
+    display: none;
+}
+
 div.logo {
     font-size: 1.5rem;
     color: #bcc3c7;
@@ -355,20 +359,31 @@ div.footer h6 {
         padding: 0.7rem 2rem!important;
     }
 
-
-
+    
     ul.nav-links {
         position: fixed;
         flex-direction: column;
-        height: 40vh;
+        height: 100vh;
         top: 0;
         right: 0;
         left: 0;
         bottom: 0;
+        margin: 0 auto;
         transform: translateX(100%);
         transition: all 500ms cubic-bezier(0, 1.88, 1, 1.22);
         align-content: center;
-        justify-content: space-between;
+        justify-content: space-evenly;
+        background: black!important;
+        opacity: 0.9;
+        z-index: 100;
+    }
+
+    .nav-links li {
+        margin: 0 auto;
+    }
+
+    button.nav-toggle {
+        display: block;
     }
 
     .nav-toggle {
