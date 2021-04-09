@@ -356,7 +356,7 @@ div.footer h6 {
     }
 
     .nav-bar {
-        padding: 0.7rem 2rem!important;
+        padding: 1em!important;
     }
 
     
@@ -390,7 +390,8 @@ div.footer h6 {
         position: absolute;
         z-index: 1000;
         background: transparent;
-        right:2.5rem;
+        right: 1em;
+        top: 1em;
         cursor: pointer;
         outline: none;
         border: none;
@@ -522,5 +523,9 @@ div.footer h6 {
     .footer-textarea textarea {
         width: 90%;
     }
+
+}
+
+@media (max-width: 375px){
 
 }
