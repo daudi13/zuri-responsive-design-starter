@@ -356,6 +356,14 @@ div.footer h6 {
         overflow-x: hidden!important;
     }
 
+    div.nav-bar {
+        padding: 10px 20px;
+    }
+
+    div.logo {
+        font-size: 17px!important;
+    }
+
     .header__nav {
         width: 200px;
         height: 100vh;
@@ -368,6 +376,7 @@ div.footer h6 {
         align-items: center;
         border-radius: 20px 0 0 20px;
         z-index: 1000;
+        transition: right 0.8s cubic-bezier(0.6, 0, 0, 1);
     }
 
     .active {
@@ -384,7 +393,7 @@ div.footer h6 {
 
     .hamburger-icon {
         width: 20px;
-        height: 20px;
+        height: 15px;
         position: fixed;
         background: transparent;
         right: 1em;
@@ -392,21 +401,21 @@ div.footer h6 {
         cursor: pointer;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-direction: column;
-        transition: right 0.8s cubic-bezier(0.6, 0, 0, 1);
+        
     }
 
     .line{
         width: 100%;
-        height: 3px;
-        background: white;
+        height: 2px;
+        background: tomato;
         border-radius: 3px;
         transition: all 0.5s;
     }
 
     .active .one {
-        transform: rotateZ(-45deg) translate(-8px, 6px);
+        transform: rotateZ(-15deg) translate(-3px, 6px);
         background-color: tomato;
         z-index: 100;
     }
@@ -416,7 +425,7 @@ div.footer h6 {
     }
 
     .active .three {
-        transform: rotateZ(45deg) translate(-6px, -4px);
+        transform: rotateZ(15deg) translate(-3px, -6px);
     }
 
 
